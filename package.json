@@ -1,0 +1,29 @@
+{
+  "name": "scss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch main.scss main.css",
+    "build": "parcel build index.html --dist-dir build --public-url ./",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Masi-92/scss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Masi-92/scss/issues"
+  },
+  "homepage": "https://github.com/Masi-92/scss#readme",
+  "dependencies": {
+    "parcel": "^2.8.3",
+    "sass": "^1.59.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
